@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="index.html" class="anchor">Home</a></li>
+                <li><a href="shop.html" class="anchor">Shop</a></li>
+                <li><a href="aboutus.html" class="anchor">About</a></li>
+                <li><a href="contact.html" class="anchor">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+
+<!-- contact -->
+    <h1>CONTACT US</h1>
+    <img src="rose boquet.jpg" alt="boquet" class="rose-boq">
+    <p>Email:hello@bloomhaven.com</p>
+    <p>Call: +123 456 7890</p>
+
+    <div class="form-container">
+
+        <form id="contactForm">
+
+            <label>Name</label>
+            <input type="text" name="name" placeholder="Enter Name"><br><br>
+
+            <label>Email</label>
+            <input type="email" name="email" placeholder="Enter Email"><br><br>
+
+
+            <textarea name="message" id="message" placeholder="Enter Message"></textarea><br><br>
+
+            <button class="send-btn" onclick="sendMessage()">Send</button>
+
+            <p id="msg"></p>
+
+
+
+
+        </form>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,252 @@
+*{
+    
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0;
+    background-color: #FDF6EC;
+   
+    
+}
+
+
+
+
+.hero{
+    position: relative;
+}
+
+.hero img{
+
+    width: 100%;
+    max-height: 100%;
+    /* max-width: 100%;
+    max-height: 50%; */
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    color:white;
+    transform: translate(-50%, -50%);
+}
+
+nav{
+    background-color:#f8e8d8;
+    padding: 20px;
+    
+    font-weight:bolder;
+    
+    
+}
+ ul,li,a{
+    display: flex;
+    
+    justify-content: space-evenly;
+    list-style-type: none;
+    
+    
+    
+      
+}
+
+.anchor{
+    justify-content: space-evenly;
+    text-decoration: none;
+    color:rebeccapurple;
+    position: fixed;
+    top: 0;
+    padding: 15px;
+    z-index: 1000;
+    
+    
+}
+
+nav .anchor:hover{
+    color: pink
+    
+}
+
+/* flower-btn */
+.shop-btn{
+    background-color:palevioletred;
+    padding: 30px ;
+    box-shadow:0 4px 10px rgba(0, 0, 0, 0.3) ;
+    
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.shop-btn:hover{
+    background-color:rgb(199, 91, 91)
+    
+    
+}
+
+.shop{
+    text-decoration: none;
+}
+
+/* container */
+
+.container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    gap: 25px;
+
+    padding:30px ;
+
+    
+   
+}
+
+.card{
+    background: white;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+     
+}
+
+/* card img */
+
+.card img{
+    width:100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+   
+}
+
+
+/* order-btn */
+
+.order-btn{
+    background: #7a8b3a;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.order-btn:hover{
+    background: #5f6f2f;
+    
+}
+
+@media(max-width:768px){
+    .container{
+        grid-template-columns: 1fr;
+    }
+}
+
+/* collections */
+
+.collections{
+    text-align: center;
+    
+}
+
+/* payment */
+
+.payment{
+
+    background: #7a8b3a;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.payment:hover{
+
+      background: #5f6f2f;
+}
+
+/* about page */
+
+h1,p,h3{
+    text-align: center;
+
+}
+
+
+
+
+
+.shop{
+   display: block;
+   margin: auto;
+   width: 200px;
+   height: 200px;
+   border-radius: 10px;
+}
+
+/* contact form */
+
+#contactForm{
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin: auto;
+    
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input,textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea{
+    height: 100px;
+    
+}
+
+.send-btn{
+    padding:10px;
+    width: 100%;
+    margin-top: 15px;
+    background: #7a8b3d;
+    border-radius:5px ;
+    cursor: pointer;
+}
+
+#msg{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.rose-boq{
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    width: 250px;
+    transition: 0.5s;
+    border:2px solid black
+}
+
+.rose-boq:hover{
+    transform: scale(1.1);
+}
